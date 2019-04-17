@@ -31,4 +31,4 @@
 1. Given the framework, how would we target addTwoNums() A deployment versus addTwoNums() B deployment from the notebook? 
 Think about how the web service is advertised, discovered, 
 and accessed so that a production release would be able to hav A/B testing of the webservice function.
- 
+1. Dockerize webservice

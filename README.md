@@ -18,7 +18,7 @@
 ### webServiceWrapper library
   1. will be wrapping an HTTP call to the deployed webservice
   1. The library will need to handle basic HTTP responses and exceptions
-  1. Initial design of function can look like `addTwoNumbers(int a, int b)`
+  1. Initial design of function can look like `addTwoNumbers(a, b)`
     
 ### Web Service for API requests
   1. Basic Flask setup for `/addTwoNums?num1=5&num2=4`
@@ -31,4 +31,4 @@
 1. Given the framework, how would we target addTwoNums() A deployment versus addTwoNums() B deployment from the notebook? 
 Think about how the web service is advertised, discovered, 
 and accessed so that a production release would be able to hav A/B testing of the webservice function.
- 
+1. Dockerize webservice
